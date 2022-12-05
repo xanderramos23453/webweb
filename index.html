@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>  <!-- Title of WebPage -->
+    <link href="styles.css" rel="stylesheet"/> <!-- HTML linked to CSS -->
+    <link rel="icon" href="assets/icons.png" type="image/gif/png"> <!-- Adding a Favicon in Webpage -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <!-- Nav bar -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>    <!--Typing ScripTag Plugins -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> <!-- Add css cdn for fonts -->
+</head>
+<body>
+    <audio loop autoplay>  <!--Background Music -->
+        <source src="assets/backmusic.mp3" type="audio/mp3">
+    </audio>
+
+    <nav class="navbar"> <!--Navigation Bar -->
+    <div class="max-width">
+        <div class="logo"><a href="#">Port<span>folio</span></a></div>
+        <ul class="menu">
+            <li><a href="#home" class="menu-btn">HOME</a></li>
+            <li><a href="#Subject-table" class="menu-btn">TABLE</a></li>
+            <li><a href="#about" class="menu-btn">ABOUT</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="home" id="home"> <!-- Home Section -->
+
+    <video class="backvideo" autoplay loop muted> <!-- Background Video -->
+        <source src="assets/backvid.mp4" type="video/mp4">   
+    </video>   
+
+    <div class="max-width"> <!-- Container-->  
+    <div class="text">      
+    <h2>We can build the World</h2> 
+    <h3>We are <span class="typing"></span></h3>
+    <a href="https://github.com/DiosdadoPaman/PortfolioPage.github.io">GitHub</a>
+    </div>
+    </div>
+</section>
+
+<section class="Subject-table" id="Subject-table"> <!-- Table Section -->
+
+    <h1 class="Subject-title">Table of Subjects</h1> <!-- Title -->
+
+        <table class="table"> <!--Header Table -->
+            <thead> 
+                <tr> 
+                    <th>Subject Code</th> 
+                    <th>Description</th> 
+                    <th>Schedule</th>
+                    <th>Teachers</th>
+                </tr>
+            </thead>
+
+            <tbody> <!-- Body Table -->
+                <tr> 
+                    <td>SA 101</td>
+                    <td>Systems Administration and Maintenance</td>
+                    <td>TTh 4:00 PM - 6:30 PM</td>
+                    <td>Ralph Dablo Mapute</td>
+                </tr>   
+
+                <tr> 
+                    <td>CAP 102</td>
+                    <td>Capstone Project and Research 2</td>
+                    <td>TTh 8:30 AM - 10:00 AM</td>
+                    <td>Janette Claro</td>
+                </tr>
+
+                <tr> 
+                    <td>SWT 101</td>
+                    <td>ICT Seminars & Workshops</td>
+                    <td>F 1:00 PM - 6:00 PM</td>
+                    <td>Janette Claro</td>
+                </tr>
+
+                <tr> 
+                    <td>SF 7</td>
+                    <td td>Student Formation 7</td>
+                    <td>S 9:00 PM - 11:00 PM</td>
+                    <td>Janette Claro</td>
+                </tr>
+
+                <tr> 
+                    <td>GE 11</td>
+                    <td>Pagbasa at Pagsulat sa Iba't-ibang Disiplina Tungo sa Pananaliksik</td>
+                    <td>S 1:00 PM - 4:00 PM</td>
+                    <td>Maria Imelda Bayona</td>
+                </tr>
+            </tbody>
+        </table>
+
+</section>
+
+<section class="about" id="about"> <!-- About Section -->
+
+    <div class="max-width"> <!-- Container -->
+        <h1 class="About-title">Our Team</h1> <!-- Title -->
+       
+            <div class="Team_Content_Box">
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="assets/will.jpg">
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/welyamyy">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>                  
+                        </div>
+                    </div>            
+                        <div class="member-name">William Velasco</div>
+                        <div  class="member-role">Head Programmer</div>
+                        <!-- <div class="member-quotes">“Code is like humor. When you have to explain it, its bad.” – Cory House</div> -->
+                </div>
+
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="assets/xander.jpg">
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/xanderramos135">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>                  
+                        </div>
+                    </div>
+                        <div class="member-name">Xander Ramos</div>
+                        <div  class="member-role">Head Programmer</div>
+                        <!-- <div class="member-quotes">“Programming isn't about what you know, it's about what you can figure out.” – Chris Pine</div> -->
+                </div>
+
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="assets/jayar.jpg">
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/jayar.paman.5/">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>                  
+                        </div>
+                    </div>
+                        <div class="member-name">Diosdado Paman Jr.</div>
+                        <div  class="member-role">Programmer</div>
+                        <!-- <div class="member-quotes">“Programs are like women. No matter how much you get mad because of errors, you are always the one who is wrong.” – Anonymous</div> -->
+                </div>
+
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="assets/irene.jpg">
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/ireneyata143">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>                  
+                        </div>
+                    </div>
+                        <div class="member-name">Irene Yata</div>
+                        <div  class="member-role">Teacher of Aaron Vergara</div>
+                        <!-- <div class="member-quotes">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</div> -->
+                </div> 
+
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="assets/1.jpg">
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/verador.jessa">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a> 
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>                  
+                        </div>
+                    </div>
+                        <div class="member-name">Jessa Verador</div>
+                        <div  class="member-role">Dancerist with sugar daddy</div>
+                        <!-- <div class="member-quotes">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight ” – Bill Gates</div> -->
+                </div> 
+            </div>
+    </div>
+</section>
+    <script src="script.js"></script> <!-- HTML linked to JavaScript -->
+</body>
+</html>
